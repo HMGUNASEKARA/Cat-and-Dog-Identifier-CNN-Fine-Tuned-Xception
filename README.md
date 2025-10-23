@@ -60,7 +60,9 @@ To enhance performance, **Transfer Learning** was applied using **Google’s pre
 - Added custom dense layers:
 
   Dense(128, activation='relu')
+  Dropout(0.2)
   Dense(128, activation='relu')
+  Dropout(0.2)
   Dense(64, activation='relu')
   Dropout(0.2)
   Dense(1, activation='sigmoid')
@@ -76,7 +78,9 @@ To enhance performance, **Transfer Learning** was applied using **Google’s pre
 - Added custom dense layers:
 
   Dense(128, activation='relu')
+  Dropout(0.2)
   Dense(128, activation='relu')
+  Dropout(0.2)
   Dense(64, activation='relu')
   Dropout(0.2)
   Dense(1, activation='sigmoid')
@@ -104,8 +108,7 @@ A simple **Streamlit interface** was developed for easy model interaction and pr
 #### Features
 - 🎞 **Introductory video** explaining how Streamlit works  
 - 🖼 **Image upload section** to classify pictures in real-time  
-- 📊 **Instant classification results** with confidence levels  
-- 📈 **Responsive and minimal user interface**
+
 
 
 
